@@ -66,10 +66,10 @@
 <wire x1="7.53446875" y1="11.34" x2="11.07" y2="7.80446875" width="0.127" layer="21" curve="-90"/>
 <wire x1="11.07" y1="7.80446875" x2="11.07" y2="-6.958440625" width="0.127" layer="21"/>
 <wire x1="11.07" y1="-6.958440625" x2="7.868440625" y2="-10.16" width="0.127" layer="21" curve="-90"/>
-<pad name="P$2" x="-10.23" y="-5.66" drill="0.9"/>
-<pad name="P$4" x="-10.23" y="6.84" drill="0.9"/>
-<pad name="P$1" x="9.87" y="-5.66" drill="0.9"/>
-<pad name="P$3" x="9.87" y="6.84" drill="0.9"/>
+<pad name="P$2" x="-10.23" y="-5.66" drill="1.2" diameter="2.54"/>
+<pad name="P$4" x="-10.23" y="6.84" drill="1.2" diameter="2.54"/>
+<pad name="P$1" x="9.87" y="-5.66" drill="1.2" diameter="2.54"/>
+<pad name="P$3" x="9.87" y="6.84" drill="1.2" diameter="2.54"/>
 <circle x="-0.23" y="0.54" radius="2.662703125" width="0.127" layer="21"/>
 <wire x1="-8.93" y1="-5.66" x2="-2.93" y2="-5.66" width="0.127" layer="21"/>
 <wire x1="-2.93" y1="-5.66" x2="-2.93" y2="-4.66" width="0.127" layer="21"/>
@@ -97,10 +97,10 @@
 <wire x1="15.5" y1="1.988415625" x2="13.511584375" y2="0" width="0.127" layer="21" curve="-90"/>
 <wire x1="13.511584375" y1="0" x2="1.79605" y2="0" width="0.127" layer="21"/>
 <wire x1="1.79605" y1="0" x2="0" y2="1.79605" width="0.127" layer="21" curve="-90"/>
-<pad name="P$2" x="1.5" y="6.5" drill="0.9"/>
-<pad name="P$4" x="1.5" y="16.5" drill="0.9"/>
-<pad name="P$1" x="14" y="6.5" drill="0.9"/>
-<pad name="P$3" x="14" y="16.5" drill="0.9"/>
+<pad name="P$2" x="1.5" y="6.5" drill="1.2" diameter="2.54"/>
+<pad name="P$4" x="1.5" y="16.5" drill="1.2" diameter="2.54"/>
+<pad name="P$1" x="14" y="6.5" drill="1.2" diameter="2.54"/>
+<pad name="P$3" x="14" y="16.5" drill="1.2" diameter="2.54"/>
 <circle x="7.5" y="11.5" radius="2.662703125" width="0.127" layer="21"/>
 <wire x1="14" y1="16" x2="14" y2="17" width="0.127" layer="21"/>
 <wire x1="3" y1="6.5" x2="5.5" y2="6.5" width="0.127" layer="21"/>
