@@ -6,3 +6,5 @@ AC filter for the 240V AC input to OpenEVSE controller. Used to filter the switc
 
 - 1 x 47 mH Schaffner RN Common Mode Choke (RN214-0.3-02-47M) or (Horizontal RN114-0.3-02-47M)
 - 2 x Safety capacitors X1/X2/Y2 10nF (DE2F3KY103MA3BM02F)
+
+![](photo.jpg)
