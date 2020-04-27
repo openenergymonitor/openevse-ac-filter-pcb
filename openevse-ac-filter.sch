@@ -1471,40 +1471,41 @@ Grid 5.00 mm&lt;p&gt;
 </deviceset>
 </devicesets>
 </library>
-<library name="fuse" urn="urn:adsk.eagle:library:233">
+<library name="fuse-20mm">
 <description>&lt;b&gt;Fuses and Fuse Holders&lt;/b&gt;&lt;p&gt;
 &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
 <packages>
-<package name="GSH15" urn="urn:adsk.eagle:footprint:14041/1" library_version="2">
+<package name="GSH15" urn="urn:adsk.eagle:footprint:14041/1" locally_modified="yes">
 <description>&lt;b&gt;FUSE HOLDER&lt;/b&gt;&lt;p&gt;
 grid 15mm, 19649 Wickmann</description>
 <wire x1="-12.573" y1="-4.572" x2="-12.573" y2="4.572" width="0.1524" layer="21"/>
-<wire x1="12.573" y1="4.572" x2="12.573" y2="-4.572" width="0.1524" layer="21"/>
+<wire x1="19.573" y1="4.572" x2="19.573" y2="-4.572" width="0.1524" layer="21"/>
 <wire x1="-5.08" y1="2.921" x2="5.08" y2="2.921" width="0.0508" layer="21"/>
 <wire x1="-11.43" y1="3.683" x2="-8.382" y2="3.683" width="0.1524" layer="21"/>
 <wire x1="-11.43" y1="-3.683" x2="-11.43" y2="3.683" width="0.1524" layer="21"/>
-<wire x1="11.43" y1="3.683" x2="11.43" y2="-3.683" width="0.1524" layer="21"/>
-<wire x1="-5.207" y1="0" x2="5.207" y2="0" width="0.0508" layer="21"/>
-<wire x1="12.573" y1="-4.572" x2="5.08" y2="-4.572" width="0.1524" layer="21"/>
-<wire x1="5.08" y1="-3.048" x2="5.08" y2="-3.683" width="0.1524" layer="21"/>
-<wire x1="5.08" y1="-3.048" x2="-5.08" y2="-3.048" width="0.1524" layer="21"/>
+<wire x1="18.43" y1="3.683" x2="18.43" y2="-3.683" width="0.1524" layer="21"/>
+<wire x1="-5.207" y1="0" x2="5" y2="0" width="0.0508" layer="21"/>
+<wire x1="5" y1="0" x2="5.207" y2="0" width="0.0508" layer="21"/>
+<wire x1="19.573" y1="-4.572" x2="12.08" y2="-4.572" width="0.1524" layer="21"/>
+<wire x1="12.08" y1="-3.048" x2="12.08" y2="-3.683" width="0.1524" layer="21"/>
+<wire x1="12.08" y1="-3.048" x2="-5.08" y2="-3.048" width="0.1524" layer="21"/>
 <wire x1="-5.08" y1="-4.572" x2="-12.573" y2="-4.572" width="0.1524" layer="21"/>
 <wire x1="-12.573" y1="4.572" x2="-5.08" y2="4.572" width="0.1524" layer="21"/>
-<wire x1="-5.08" y1="3.048" x2="5.08" y2="3.048" width="0.1524" layer="21"/>
-<wire x1="5.08" y1="4.572" x2="5.08" y2="3.683" width="0.1524" layer="21"/>
-<wire x1="5.08" y1="4.572" x2="12.573" y2="4.572" width="0.1524" layer="21"/>
-<wire x1="5.08" y1="-3.683" x2="6.858" y2="-3.683" width="0.1524" layer="21"/>
-<wire x1="6.858" y1="-4.191" x2="6.858" y2="-3.683" width="0.1524" layer="21"/>
-<wire x1="6.858" y1="-4.191" x2="8.382" y2="-4.191" width="0.1524" layer="21"/>
-<wire x1="8.382" y1="-3.683" x2="8.382" y2="-4.191" width="0.1524" layer="21"/>
-<wire x1="8.382" y1="-3.683" x2="11.43" y2="-3.683" width="0.1524" layer="21"/>
-<wire x1="5.08" y1="3.683" x2="6.858" y2="3.683" width="0.1524" layer="21"/>
-<wire x1="6.858" y1="4.191" x2="6.858" y2="3.683" width="0.1524" layer="21"/>
-<wire x1="6.858" y1="4.191" x2="8.382" y2="4.191" width="0.1524" layer="21"/>
-<wire x1="8.382" y1="3.683" x2="8.382" y2="4.191" width="0.1524" layer="21"/>
-<wire x1="8.382" y1="3.683" x2="11.43" y2="3.683" width="0.1524" layer="21"/>
-<wire x1="5.08" y1="3.683" x2="5.08" y2="3.048" width="0.1524" layer="21"/>
-<wire x1="5.08" y1="-3.683" x2="5.08" y2="-4.572" width="0.1524" layer="21"/>
+<wire x1="-5.08" y1="3.048" x2="12.08" y2="3.048" width="0.1524" layer="21"/>
+<wire x1="12.08" y1="4.572" x2="12.08" y2="3.683" width="0.1524" layer="21"/>
+<wire x1="12.08" y1="4.572" x2="19.573" y2="4.572" width="0.1524" layer="21"/>
+<wire x1="12.08" y1="-3.683" x2="14.858" y2="-3.683" width="0.1524" layer="21"/>
+<wire x1="14.858" y1="-4.191" x2="14.858" y2="-3.683" width="0.1524" layer="21"/>
+<wire x1="14.858" y1="-4.191" x2="16.382" y2="-4.191" width="0.1524" layer="21"/>
+<wire x1="16.382" y1="-3.683" x2="16.382" y2="-4.191" width="0.1524" layer="21"/>
+<wire x1="16.382" y1="-3.683" x2="18.43" y2="-3.683" width="0.1524" layer="21"/>
+<wire x1="12.08" y1="3.683" x2="14.858" y2="3.683" width="0.1524" layer="21"/>
+<wire x1="14.858" y1="4.191" x2="14.858" y2="3.683" width="0.1524" layer="21"/>
+<wire x1="14.858" y1="4.191" x2="16.382" y2="4.191" width="0.1524" layer="21"/>
+<wire x1="16.382" y1="3.683" x2="16.382" y2="4.191" width="0.1524" layer="21"/>
+<wire x1="16.382" y1="3.683" x2="18.43" y2="3.683" width="0.1524" layer="21"/>
+<wire x1="12.08" y1="3.683" x2="12.08" y2="3.048" width="0.1524" layer="21"/>
+<wire x1="12.08" y1="-3.683" x2="12.08" y2="-4.572" width="0.1524" layer="21"/>
 <wire x1="-5.08" y1="3.048" x2="-5.08" y2="3.683" width="0.1524" layer="21"/>
 <wire x1="-5.08" y1="3.683" x2="-5.08" y2="4.572" width="0.1524" layer="21"/>
 <wire x1="-5.08" y1="-4.572" x2="-5.08" y2="-3.683" width="0.1524" layer="21"/>
@@ -1519,21 +1520,21 @@ grid 15mm, 19649 Wickmann</description>
 <wire x1="-8.382" y1="-3.683" x2="-8.382" y2="-4.191" width="0.1524" layer="21"/>
 <wire x1="-8.382" y1="-3.683" x2="-11.43" y2="-3.683" width="0.1524" layer="21"/>
 <pad name="1" x="-7.62" y="0" drill="1.3208" diameter="2.54" shape="long" rot="R90"/>
-<pad name="2" x="7.62" y="0" drill="1.3208" diameter="2.54" shape="long" rot="R90"/>
-<text x="-4.4196" y="3.6068" size="1.778" layer="25" ratio="10">&gt;NAME</text>
-<text x="-4.4196" y="-5.461" size="1.778" layer="27" ratio="10">&gt;VALUE</text>
+<pad name="2" x="14.38" y="0" drill="1.3208" diameter="2.54" shape="long" rot="R90"/>
+<text x="-0.9196" y="3.6068" size="1.778" layer="25" ratio="10">&gt;NAME</text>
+<text x="-0.9196" y="-5.461" size="1.778" layer="27" ratio="10">&gt;VALUE</text>
 <rectangle x1="-5.08" y1="1.651" x2="5.08" y2="2.159" layer="21"/>
 <rectangle x1="-5.08" y1="-2.159" x2="5.08" y2="-1.651" layer="21"/>
-<rectangle x1="5.08" y1="-3.175" x2="5.715" y2="-1.524" layer="21"/>
-<rectangle x1="5.08" y1="1.524" x2="5.715" y2="3.175" layer="21"/>
-<rectangle x1="5.08" y1="-1.524" x2="5.715" y2="1.524" layer="51"/>
-<rectangle x1="10.287" y1="-2.032" x2="10.541" y2="2.032" layer="21"/>
-<rectangle x1="6.731" y1="1.905" x2="8.509" y2="2.032" layer="51"/>
-<rectangle x1="6.731" y1="-2.032" x2="8.509" y2="-1.905" layer="51"/>
-<rectangle x1="5.715" y1="2.032" x2="10.541" y2="3.175" layer="21"/>
-<rectangle x1="5.715" y1="-3.175" x2="10.541" y2="-2.032" layer="21"/>
-<rectangle x1="7.112" y1="-3.937" x2="8.128" y2="-3.175" layer="21"/>
-<rectangle x1="7.112" y1="3.175" x2="8.128" y2="3.937" layer="21"/>
+<rectangle x1="12.08" y1="-3.175" x2="12.715" y2="-1.524" layer="21"/>
+<rectangle x1="12.08" y1="1.524" x2="12.715" y2="3.175" layer="21"/>
+<rectangle x1="12.08" y1="-1.524" x2="12.715" y2="1.524" layer="51"/>
+<rectangle x1="16.887" y1="-2.032" x2="17.141" y2="2.032" layer="21"/>
+<rectangle x1="9.731" y1="1.905" x2="11.509" y2="2.032" layer="51"/>
+<rectangle x1="9.731" y1="-2.032" x2="11.509" y2="-1.905" layer="51"/>
+<rectangle x1="12.715" y1="2.032" x2="17.541" y2="3.175" layer="21"/>
+<rectangle x1="12.715" y1="-3.175" x2="17.541" y2="-2.032" layer="21"/>
+<rectangle x1="15.112" y1="-3.937" x2="16.128" y2="-3.175" layer="21"/>
+<rectangle x1="15.112" y1="3.175" x2="16.128" y2="3.937" layer="21"/>
 <rectangle x1="-5.715" y1="-1.524" x2="-5.08" y2="1.524" layer="51"/>
 <rectangle x1="-5.715" y1="1.524" x2="-5.08" y2="3.175" layer="21"/>
 <rectangle x1="-5.715" y1="-3.175" x2="-5.08" y2="-1.524" layer="21"/>
@@ -1544,19 +1545,22 @@ grid 15mm, 19649 Wickmann</description>
 <rectangle x1="-10.541" y1="2.032" x2="-5.715" y2="3.175" layer="21"/>
 <rectangle x1="-8.128" y1="3.175" x2="-7.112" y2="3.937" layer="21"/>
 <rectangle x1="-8.128" y1="-3.937" x2="-7.112" y2="-3.175" layer="21"/>
-<rectangle x1="5.715" y1="-2.032" x2="6.731" y2="-1.905" layer="21"/>
-<rectangle x1="5.715" y1="1.905" x2="6.731" y2="2.032" layer="21"/>
+<rectangle x1="10.715" y1="-2.032" x2="11.731" y2="-1.905" layer="21"/>
+<rectangle x1="10.715" y1="1.905" x2="11.731" y2="2.032" layer="21"/>
 <rectangle x1="8.509" y1="1.905" x2="10.287" y2="2.032" layer="21"/>
 <rectangle x1="8.509" y1="-2.032" x2="10.287" y2="-1.905" layer="21"/>
 <rectangle x1="-10.287" y1="1.905" x2="-8.509" y2="2.032" layer="21"/>
 <rectangle x1="-6.731" y1="1.905" x2="-5.715" y2="2.032" layer="21"/>
 <rectangle x1="-6.731" y1="-2.032" x2="-5.715" y2="-1.905" layer="21"/>
 <rectangle x1="-10.287" y1="-2.032" x2="-8.509" y2="-1.905" layer="21"/>
-<hole x="0" y="0" drill="2.794"/>
+<hole x="4" y="0" drill="2.794"/>
+<wire x1="5" y1="0" x2="12" y2="0" width="0.127" layer="21"/>
+<rectangle x1="1.92" y1="1.651" x2="12.08" y2="2.159" layer="21"/>
+<rectangle x1="1.92" y1="-2.159" x2="12.08" y2="-1.651" layer="21"/>
 </package>
 </packages>
 <packages3d>
-<package3d name="GSH15" urn="urn:adsk.eagle:package:14065/1" type="box" library_version="2">
+<package3d name="GSH15" urn="urn:adsk.eagle:package:14065/1" type="box">
 <description>FUSE HOLDER
 grid 15mm, 19649 Wickmann</description>
 <packageinstances>
@@ -1565,7 +1569,7 @@ grid 15mm, 19649 Wickmann</description>
 </package3d>
 </packages3d>
 <symbols>
-<symbol name="FUSE" urn="urn:adsk.eagle:symbol:14027/1" library_version="2">
+<symbol name="FUSE">
 <wire x1="-3.81" y1="-0.762" x2="3.81" y2="-0.762" width="0.254" layer="94"/>
 <wire x1="3.81" y1="0.762" x2="-3.81" y2="0.762" width="0.254" layer="94"/>
 <wire x1="3.81" y1="-0.762" x2="3.81" y2="0.762" width="0.254" layer="94"/>
@@ -1578,7 +1582,7 @@ grid 15mm, 19649 Wickmann</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="GSH15" urn="urn:adsk.eagle:component:14090/2" prefix="F" uservalue="yes" library_version="2">
+<deviceset name="GSH15" prefix="F" uservalue="yes">
 <description>&lt;b&gt;FUSE HOLDER&lt;/b&gt;&lt;p&gt;
 grid 15mm, 19649 Wickmann</description>
 <gates>
@@ -1623,7 +1627,7 @@ grid 15mm, 19649 Wickmann</description>
 <part name="C2" library="capacitor-wima" deviceset="C" device="5/2.5" value="10nF"/>
 <part name="X1" library="con-wago-500" library_urn="urn:adsk.eagle:library:195" deviceset="W237-103" device="" package3d_urn="urn:adsk.eagle:package:10691/1"/>
 <part name="X2" library="con-wago-500" library_urn="urn:adsk.eagle:library:195" deviceset="W237-103" device="" package3d_urn="urn:adsk.eagle:package:10691/1"/>
-<part name="F1" library="fuse" library_urn="urn:adsk.eagle:library:233" deviceset="GSH15" device="" package3d_urn="urn:adsk.eagle:package:14065/1"/>
+<part name="F2" library="fuse-20mm" deviceset="GSH15" device="" package3d_urn="urn:adsk.eagle:package:14065/1"/>
 </parts>
 <sheets>
 <sheet>
@@ -1665,7 +1669,7 @@ grid 15mm, 19649 Wickmann</description>
 <attribute name="VALUE" x="83.82" y="79.883" size="1.778" layer="96" rot="R180"/>
 <attribute name="NAME" x="81.28" y="75.311" size="1.778" layer="95"/>
 </instance>
-<instance part="F1" gate="1" x="2.54" y="68.58" smashed="yes">
+<instance part="F2" gate="1" x="2.54" y="68.58" smashed="yes">
 <attribute name="NAME" x="-1.27" y="69.977" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-1.27" y="65.659" size="1.778" layer="96"/>
 </instance>
@@ -1690,10 +1694,9 @@ grid 15mm, 19649 Wickmann</description>
 <pinref part="U$1" gate="G$1" pin="P$2"/>
 <pinref part="U$2" gate="G$1" pin="P$2"/>
 <pinref part="C1" gate="G$1" pin="2"/>
-<wire x1="7.62" y1="68.58" x2="17.78" y2="68.58" width="0.1524" layer="91"/>
-<pinref part="F1" gate="1" pin="2"/>
-<junction x="7.62" y="68.58"/>
+<wire x1="10.16" y1="68.58" x2="17.78" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="7.62" y1="68.58" x2="10.16" y2="68.58" width="0.1524" layer="91"/>
+<pinref part="F2" gate="1" pin="2"/>
 </segment>
 </net>
 <net name="N$3" class="0">
@@ -1721,8 +1724,8 @@ grid 15mm, 19649 Wickmann</description>
 <net name="N$5" class="0">
 <segment>
 <pinref part="X1" gate="-3" pin="KL"/>
-<pinref part="F1" gate="1" pin="1"/>
 <wire x1="-2.54" y1="68.58" x2="-7.62" y2="68.58" width="0.1524" layer="91"/>
+<pinref part="F2" gate="1" pin="1"/>
 </segment>
 </net>
 </nets>
